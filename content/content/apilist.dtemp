@@ -1,0 +1,39 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>API</title>
+<style type="text/css">
+.dadadhelp {
+	font: small;
+}
+.dadadhname {
+	font-weight: bolder;
+}
+.dadadname {
+}
+table.dadadapitable   {
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+tr.dadadapitr {
+	text-align: left;
+	vertical-align: central;
+}
+td.dadadnav {
+	font-size: medium;
+	text-align: right;
+}
+</style>
+$[[SCRIPTCSS]]
+</head>
+
+<body>
+<table border="0" width="100%"><tr>
+  <td class="dadadnav"><a href="index.html">&lt;&lt; HOME</a></td></tr></table>
+<h2>API LIST</h2> 
+ 
+$[[APILIST]]
+
+</body>
+</html>

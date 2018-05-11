@@ -1,0 +1,11 @@
+$[[run.prop]]
+
+lister.list.type=VERSION__TABULAR1
+
+ac.chance.to.accept.block=20
+ac.chance.to.accept.block=8
+
+workflow.processor=CSV
+workflow.block.reader=dadad.data.input.CSVBlockReader
+
+

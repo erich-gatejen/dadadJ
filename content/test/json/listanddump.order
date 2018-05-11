@@ -1,0 +1,64 @@
+# ORDER SCRIPT
+
+# Create steps
+STEP	source		dadad.process.data.wf.WFSource				OBJECT
+STEP	breader		dadad.process.data.wf.WFSBlockReader		BLOCK
+STEP	baccept		dadad.process.data.wf.WFSBlockAcceptor		BLOCK
+TERMPROCESSOR	termprocessor
+PROCESSOR		elemprocessor
+STEP	eaccept		dadad.process.data.wf.WFSElementAcceptor	BLOCK
+STEP	termalt		dadad.process.data.wf.WFSTermAlteration		BLOCK
+
+STEP	save		dadad.process.data.wf.WFSBlockWriter		BLOCK
+STEP	lister		dadad.process.data.wf.WFSLister				BLOCK
+STEP	dump		dadad.process.data.wf.WFSDump				BLOCK
+
+STEP	result		dadad.process.data.wf.WFSResultManager		BLOCK
+
+TEST	test.terms	dadad.process.data.test.JSONTermsTest
+
+
+# Start
+START	source
+START	breader
+START	baccept
+START	termprocessor
+START	test.terms
+START	termalt
+START	elemprocessor
+START	eaccept
+START	save
+START	lister
+START	dump
+START	result
+
+
+# Header steps
+
+
+# Process steps
+FORWARD 				result
+PROCESS		breader
+PROCESS		termprocessor
+FORWARD 				dump
+PROCESS		test.terms
+PROCESS		termalt
+PROCESS		elemprocessor
+PROCESS		baccept
+PROCESS		eaccept
+PROCESS		lister
+PROCESS		dump		save
+PROCESS		save
+PROCESS		result
+
+
+# End steps
+END		breader
+END		termprocessor
+END		elemprocessor
+END		save
+END		lister
+END		dump
+END 	source
+END		result
+

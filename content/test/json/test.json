@@ -1,0 +1,30 @@
+[
+	{
+		"firstName": "Joe",
+		"lastName": "Johnson",
+        "address":
+        {
+			"streetAddress": "111 Main St",
+			"city": "Monkey Island",
+			"state": "CA",
+			"postalCode": "94511"
+        },
+		"phoneNumber": "415-555-1234",
+		"age": 40,
+     	"birthday" : "6/1/1970"
+	},
+	{
+		"firstName": "Jake",
+		"lastName": "Jackson",
+        "address":
+        {
+			"streetAddress": "222 Main St",
+			"city": "Monkey Island",
+			"state": "CA",
+			"postalCode": "94511"
+        },
+		"phoneNumber": "415-555-4321",
+		"age": 41,
+     	"birthday" : "6/1/1969"
+	}
+]	

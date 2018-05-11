@@ -1,0 +1,12 @@
+FROM drydock/u14jav:prod
+
+RUN mkdir /dadadJ
+
+COPY startup_test.sh /startup.sh
+COPY dadadJtest.tgz /dadadJ
+
+# CMD /startup.sh
+
+ENTRYPOINT ["/bin/bash", "-x", "/startup.sh"]
+
+

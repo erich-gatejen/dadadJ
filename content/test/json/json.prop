@@ -1,0 +1,42 @@
+# ############## test configurations
+
+# test.path must be set to this directory
+
+data.type=json
+data.extention=.json
+workflow.header.is.present=false
+
+# processing
+workflow.processor=JSON
+workflow.processor.term=JSON_TERM
+workflow.block.reader=dadad.data.io.JSONBlockReader
+workflow.block.writer=dadad.data.io.StreamBlockWriter
+
+# listing
+lister.list.type=VERSION__TABULAR1
+
+# acceptance
+ac.chance.to.accept.block=10
+ac.chance.to.accept.element=4
+ac.accept.by.position=0,2
+
+# alter
+alter.element.by.position=0
+
+# output
+lister.list.file=${{test.result.path}}/OUT_list_${{run}}${{test.subtest}}
+result.post.file=${{test.result.path}}/OUT_report_${{run}}${{test.subtest}}
+__WFSBlockWriter.url=file:/${{test.result.path}}/OUT_data_${{run}}${{test.subtest}}.json
+__WFSDump.url=file:/${{test.result.path}}/OUT_dump_${{run}}${{test.subtest}}.json
+
+order.script=${{test.path}}/listanddump.order
+
+# ############## other configurations
+
+# Set to true if each result should be logged.
+result.post.objects=true
+
+result.name=TEST_JSON
+
+
+

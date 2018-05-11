@@ -1,0 +1,72 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>API $((api.name))</title>
+<style type="text/css">
+.dadadhelp {
+	font: small;
+}
+.dadadhname {
+	font-weight: bolder;
+}
+.dadadname {
+}
+table.dadadapitable   {
+	border: 1px solid black;
+	border-collapse: collapse;
+	width: 100%;
+}
+tr.dadadapitr {
+	text-align: left;
+	vertical-align: central;
+}
+table.dadadresult {
+	border: 1px solid red;
+	border-collapse: collapse;
+	width: 100%;
+}
+div.dadadheader {
+	font-size: smaller;
+	color: red;
+}
+td.dadadnav {
+	font-size: medium;
+	text-align: right;
+}
+</style>
+</head>
+
+<body>
+<table border="0" width="100%"><tr>
+  <td class="dadadnav"><a href="apilist.dtmp">&lt;&lt; API LIST</a></td></tr></table>
+<div class="dadadheader">API CALL RESULT</div>
+<table class="dadadresult">
+	<tr><td>$((___error.report))$((___success.report))</td><tr>
+</table>
+<br>
+<form name="form1" method="post" action="">
+  <div class="dadadname">Name: API_NAME</div>
+  <div class="dadadhelp">help</div>
+  <br>
+  <div class="dadadname">Method: METHOD_NAME</div>
+  <div class="dadadhelp">help</div>
+  <table width="100%" border="1" class="dadadapitable">
+  <tbody>
+    <tr class="dadadapitr">
+      <td width="20">#1</td>
+      <td>
+      	<div class="dadadname">Method: name</div>
+      	<div class="dadadhelp">help</div>
+        <div><input name="NAME" type="text" id="NAME" value="DEFAULT" size="190"></div>
+      </td>
+    </tr>
+    <tr class="dadadapitr">
+      <td>&nbsp;</td>
+      <td><input name="SUBMIT" type="button" id="SUBMIT" value="SUBMIT"></td>
+    </tr>
+  </tbody>
+</table>
+</form>
+</body>
+</html>

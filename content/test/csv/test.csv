@@ -1,0 +1,94 @@
+Facility ID,Facility Name,Description,Short Description,Attribute Type,Attribute Value,Measure Value,Sub Type,County,Regional Office,Effective Date
+1,Albany Medical Center Hospital,Hospital,HOSP,Bed,AIDS,15,Permanent,Albany,Capital District Regional Office,03/21/1988
+1,Albany Medical Center Hospital,Hospital,HOSP,Bed,Bone Marrow Transplant,6,Permanent,Albany,Capital District Regional Office,01/18/1994
+1,Albany Medical Center Hospital,Hospital,HOSP,Bed,Coronary Care,20,Permanent,Albany,Capital District Regional Office,02/01/1980
+1,Albany Medical Center Hospital,Hospital,HOSP,Bed,Intensive Care,60,Permanent,Albany,Capital District Regional Office,08/19/2013
+1,Albany Medical Center Hospital,Hospital,HOSP,Bed,Maternity,39,Permanent,Albany,Capital District Regional Office,02/01/1980
+1,Albany Medical Center Hospital,Hospital,HOSP,Bed,Medical / Surgical,399,Permanent,Albany,Capital District Regional Office,08/19/2013
+1,Albany Medical Center Hospital,Hospital,HOSP,Bed,Neonatal Continuing Care,14,Permanent,Albany,Capital District Regional Office,09/13/1994
+1,Albany Medical Center Hospital,Hospital,HOSP,Bed,Neonatal Intensive Care,13,Permanent,Albany,Capital District Regional Office,08/19/2013
+1,Albany Medical Center Hospital,Hospital,HOSP,Bed,Neonatal Intermediate Care,29,Permanent,Albany,Capital District Regional Office,09/13/1994
+1,Albany Medical Center Hospital,Hospital,HOSP,Bed,Pediatric,55,Permanent,Albany,Capital District Regional Office,08/19/2013
+1,Albany Medical Center Hospital,Hospital,HOSP,Bed,Pediatric ICU,19,Permanent,Albany,Capital District Regional Office,09/25/2015
+1,Albany Medical Center Hospital,Hospital,HOSP,Bed,Physical Medicine and Rehabilitation,21,Permanent,Albany,Capital District Regional Office,02/01/1980
+1,Albany Medical Center Hospital,Hospital,HOSP,Bed,Psychiatric,26,Permanent,Albany,Capital District Regional Office,08/06/2008
+1,Albany Medical Center Hospital,Hospital,HOSP,Service,AIDS,0,,Albany,Capital District Regional Office,03/21/1988
+1,Albany Medical Center Hospital,Hospital,HOSP,Service,AIDS Center,0,,Albany,Capital District Regional Office,12/30/2008
+1,Albany Medical Center Hospital,Hospital,HOSP,Service,Ambulatory Surgery - Multi Specialty,0,,Albany,Capital District Regional Office,12/30/2008
+1,Albany Medical Center Hospital,Hospital,HOSP,Service,Audiology  O/P,0,,Albany,Capital District Regional Office,10/05/1984
+1,Albany Medical Center Hospital,Hospital,HOSP,Service,CT Scanner,0,,Albany,Capital District Regional Office,12/30/2008
+1,Albany Medical Center Hospital,Hospital,HOSP,Service,Cardiac Catheterization - Adult Diagnostic,0,,Albany,Capital District Regional Office,02/01/1980
+1,Albany Medical Center Hospital,Hospital,HOSP,Service,Cardiac Catheterization - Electrophysiology (EP),0,,Albany,Capital District Regional Office,12/30/2008
+1,Albany Medical Center Hospital,Hospital,HOSP,Service,Cardiac Catheterization - Pediatric Diagnostic,0,,Albany,Capital District Regional Office,02/01/1980
+1,Albany Medical Center Hospital,Hospital,HOSP,Service,Cardiac Catheterization - Percutaneous Coronary Intervention (PCI),0,,Albany,Capital District Regional Office,12/30/2008
+1,Albany Medical Center Hospital,Hospital,HOSP,Service,Cardiac Surgery - Adult,0,,Albany,Capital District Regional Office,02/01/1980
+1,Albany Medical Center Hospital,Hospital,HOSP,Service,Cardiac Surgery - Pediatric,0,,Albany,Capital District Regional Office,02/01/1980
+1,Albany Medical Center Hospital,Hospital,HOSP,Service,Certified Mental Health Services O/P,0,,Albany,Capital District Regional Office,02/01/1980
+1,Albany Medical Center Hospital,Hospital,HOSP,Service,Clinic Part Time Services,0,,Albany,Capital District Regional Office,01/28/1993
+1,Albany Medical Center Hospital,Hospital,HOSP,Service,Clinical Laboratory Service,0,,Albany,Capital District Regional Office,02/01/1980
+1,Albany Medical Center Hospital,Hospital,HOSP,Service,Coronary Care,0,,Albany,Capital District Regional Office,02/01/1980
+1,Albany Medical Center Hospital,Hospital,HOSP,Service,Emergency Department,0,,Albany,Capital District Regional Office,02/01/1980
+1,Albany Medical Center Hospital,Hospital,HOSP,Service,Epilepsy Comprehensive Services,0,,Albany,Capital District Regional Office,08/01/2002
+1,Albany Medical Center Hospital,Hospital,HOSP,Service,Home Peritoneal Dialysis Training and Support,0,,Albany,Capital District Regional Office,12/30/2008
+1,Albany Medical Center Hospital,Hospital,HOSP,Service,Intensive Care,0,,Albany,Capital District Regional Office,02/01/1980
+1,Albany Medical Center Hospital,Hospital,HOSP,Service,Linear Accelerator,0,,Albany,Capital District Regional Office,12/30/2008
+1,Albany Medical Center Hospital,Hospital,HOSP,Service,Magnetic Resonance Imaging,0,,Albany,Capital District Regional Office,12/30/2008
+1,Albany Medical Center Hospital,Hospital,HOSP,Service,Maternity,0,,Albany,Capital District Regional Office,02/01/1980
+1,Albany Medical Center Hospital,Hospital,HOSP,Service,Medical Services - Other Medical Specialties,0,,Albany,Capital District Regional Office,06/01/2015
+1,Albany Medical Center Hospital,Hospital,HOSP,Service,Medical Services - Primary Care,0,,Albany,Capital District Regional Office,06/01/2015
+1,Albany Medical Center Hospital,Hospital,HOSP,Service,Medical Social Services,0,,Albany,Capital District Regional Office,02/01/1980
+1,Albany Medical Center Hospital,Hospital,HOSP,Service,Medical/Surgical,0,,Albany,Capital District Regional Office,08/06/2008
+1,Albany Medical Center Hospital,Hospital,HOSP,Service,Neonatal Continuing Care,0,,Albany,Capital District Regional Office,09/13/1994
+1,Albany Medical Center Hospital,Hospital,HOSP,Service,Neonatal Intensive Care,0,,Albany,Capital District Regional Office,09/13/1994
+1,Albany Medical Center Hospital,Hospital,HOSP,Service,Neonatal Intermediate Care,0,,Albany,Capital District Regional Office,09/13/1994
+1,Albany Medical Center Hospital,Hospital,HOSP,Service,Nuclear Medicine - Diagnostic,0,,Albany,Capital District Regional Office,02/01/1980
+1,Albany Medical Center Hospital,Hospital,HOSP,Service,Nuclear Medicine - Therapeutic,0,,Albany,Capital District Regional Office,02/01/1980
+1,Albany Medical Center Hospital,Hospital,HOSP,Service,Pediatric,0,,Albany,Capital District Regional Office,08/06/2008
+1,Albany Medical Center Hospital,Hospital,HOSP,Service,Pediatric Intensive Care,0,,Albany,Capital District Regional Office,09/13/1994
+1,Albany Medical Center Hospital,Hospital,HOSP,Service,Physical Medical Rehabilitation,0,,Albany,Capital District Regional Office,02/01/1980
+1,Albany Medical Center Hospital,Hospital,HOSP,Service,Psychiatric,0,,Albany,Capital District Regional Office,12/30/2008
+1,Albany Medical Center Hospital,Hospital,HOSP,Service,Radiology - Diagnostic,0,,Albany,Capital District Regional Office,02/01/1980
+1,Albany Medical Center Hospital,Hospital,HOSP,Service,Radiology-Therapeutic,0,,Albany,Capital District Regional Office,02/01/1980
+1,Albany Medical Center Hospital,Hospital,HOSP,Service,Regional Perinatal Center (RPC),,Processing Stations,Albany,Capital District Regional Office,07/08/2016
+1,Albany Medical Center Hospital,Hospital,HOSP,Service,Renal Dialysis - Acute,2,Processing Stations,Albany,Capital District Regional Office,02/01/1980
+1,Albany Medical Center Hospital,Hospital,HOSP,Service,Renal Dialysis - Chronic,5,Processing Stations,Albany,Capital District Regional Office,09/16/2004
+1,Albany Medical Center Hospital,Hospital,HOSP,Service,"Respiratory Care",0,,Albany,Capital District Regional Office,02/01/1980
+1,Albany Medical Center Hospital,Hospital,HOSP,Service,Stroke Center,,Processing Stations,Albany,Capital District Regional Office,07/08/2016
+1,Albany Medical Center Hospital,Hospital,HOSP,Service,Therapy - Occupational O/P,0,,Albany,Capital District Regional Office,02/01/1980
+1,Albany Medical Center Hospital,Hospital,HOSP,Service,Therapy - Speech Language Pathology,0,,Albany,Capital District Regional Office,02/01/1980
+1,Albany Medical Center Hospital,Hospital,HOSP,Service,Transplant - Bone Marrow,0,,Albany,Capital District Regional Office,01/18/1994
+1,Albany Medical Center Hospital,Hospital,HOSP,Service,Transplant - Heart - Adult,0,,Albany,Capital District Regional Office,02/09/2000
+1,Albany Medical Center Hospital,Hospital,HOSP,Service,Transplant - Kidney,0,,Albany,Capital District Regional Office,02/01/1980
+2,Albany Medical Center - South Clinical Campus,Hospital,HOSP,Bed,Medical / Surgical,18,Permanent,Albany,Capital District Regional Office,09/25/2015
+2,Albany Medical Center - South Clinical Campus,Hospital,HOSP,Service,Ambulatory Surgery - Multi Specialty,0,,Albany,Capital District Regional Office,12/30/2008
+2,Albany Medical Center - South Clinical Campus,Hospital,HOSP,Service,Lithotripsy,0,,Albany,Capital District Regional Office,09/21/2010
+2,Albany Medical Center - South Clinical Campus,Hospital,HOSP,Service,Magnetic Resonance Imaging,0,,Albany,Capital District Regional Office,12/30/2008
+2,Albany Medical Center - South Clinical Campus,Hospital,HOSP,Service,Medical Services - Other Medical Specialties,0,,Albany,Capital District Regional Office,06/01/2015
+2,Albany Medical Center - South Clinical Campus,Hospital,HOSP,Service,Medical Social Services,0,,Albany,Capital District Regional Office,07/08/1999
+2,Albany Medical Center - South Clinical Campus,Hospital,HOSP,Service,Medical/Surgical,0,,Albany,Capital District Regional Office,07/08/1999
+2,Albany Medical Center - South Clinical Campus,Hospital,HOSP,Service,Radiology - Diagnostic,0,,Albany,Capital District Regional Office,02/01/1980
+2,Albany Medical Center - South Clinical Campus,Hospital,HOSP,Service,Radiology-Therapeutic,0,,Albany,Capital District Regional Office,05/01/2009
+4,Albany Memorial Hospital,Hospital,HOSP,Bed,Coronary Care,9,Permanent,Albany,Capital District Regional Office,02/01/1980
+4,Albany Memorial Hospital,Hospital,HOSP,Bed,Intensive Care,12,Permanent,Albany,Capital District Regional Office,02/01/1980
+4,Albany Memorial Hospital,Hospital,HOSP,Bed,Medical / Surgical,144,Permanent,Albany,Capital District Regional Office,04/15/1988
+4,Albany Memorial Hospital,Hospital,HOSP,Service,Ambulatory Surgery - Multi Specialty,0,,Albany,Capital District Regional Office,12/30/2008
+4,Albany Memorial Hospital,Hospital,HOSP,Service,Audiology  O/P,0,,Albany,Capital District Regional Office,10/05/1984
+4,Albany Memorial Hospital,Hospital,HOSP,Service,CT Scanner,0,,Albany,Capital District Regional Office,12/30/2008
+4,Albany Memorial Hospital,Hospital,HOSP,Service,Clinical Laboratory Service,0,,Albany,Capital District Regional Office,02/01/1980
+4,Albany Memorial Hospital,Hospital,HOSP,Service,Coronary Care,0,,Albany,Capital District Regional Office,02/01/1980
+4,Albany Memorial Hospital,Hospital,HOSP,Service,Emergency Department,0,,Albany,Capital District Regional Office,02/01/1980
+4,Albany Memorial Hospital,Hospital,HOSP,Service,Intensive Care,0,,Albany,Capital District Regional Office,02/01/1980
+4,Albany Memorial Hospital,Hospital,HOSP,Service,Lithotripsy,0,,Albany,Capital District Regional Office,12/22/1986
+4,Albany Memorial Hospital,Hospital,HOSP,Service,Medical Services - Other Medical Specialties,0,,Albany,Capital District Regional Office,06/01/2015
+4,Albany Memorial Hospital,Hospital,HOSP,Service,Medical Services - Primary Care,0,,Albany,Capital District Regional Office,07/14/2014
+4,Albany Memorial Hospital,Hospital,HOSP,Service,Medical Social Services,0,,Albany,Capital District Regional Office,02/01/1980
+4,Albany Memorial Hospital,Hospital,HOSP,Service,Medical/Surgical,0,,Albany,Capital District Regional Office,04/15/1988
+4,Albany Memorial Hospital,Hospital,HOSP,Service,Nuclear Medicine - Diagnostic,0,,Albany,Capital District Regional Office,02/01/1980
+4,Albany Memorial Hospital,Hospital,HOSP,Service,Radiology - Diagnostic,0,,Albany,Capital District Regional Office,02/01/1980
+4,Albany Memorial Hospital,Hospital,HOSP,Service,Renal Dialysis - Acute,0,,Albany,Capital District Regional Office,02/01/1980
+4,Albany Memorial Hospital,Hospital,HOSP,Service,SAFE Center,,Processing Stations,Albany,Capital District Regional Office,07/08/2016
+4,Albany Memorial Hospital,Hospital,HOSP,Service,Stroke Center,,Processing Stations,Albany,Capital District Regional Office,07/08/2016
+4,Albany Memorial Hospital,Hospital,HOSP,Service,Therapy - Occupational O/P,0,,Albany,Capital District Regional Office,02/01/1980
+4,Albany Memorial Hospital,Hospital,HOSP,Service,Therapy - Physical O/P,0,,Albany,Capital District Regional Office,02/01/1980
+4,Albany Memorial Hospital,Hospital,HOSP,Service,Therapy - Speech Language Pathology,0,,Albany,Capital District Regional Office,02/01/1980
+4,Albany Memorial Hospital,Hospital,HOSP,Service,Therapy - Speech Language Pathology O/P,0,,Albany,Capital District Regional Office,03/01/2006

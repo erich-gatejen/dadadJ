@@ -1,0 +1,137 @@
+<project name="dadadJ" default="dist" basedir=".">
+	<description>dadadJ</description>
+
+	<property name="javac.debug" value="true" />
+
+	<property name="dadadJ.src" location="src" />
+	<property name="dadadJ.bin" location="bin" />
+	<property name="dadadJ.common.libraries" location="lib" />
+	<property name="content" location="content" />
+	<property name="dist" location="dist" />
+	<property name="test" location="test" />
+
+	<property environment="env" />
+
+	<target name="init">
+		<tstamp />
+		<mkdir dir="${dist}" />
+	</target>
+
+	<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  -->
+	<!-- CLASS PATHS    -->
+
+	<path id="dadadJ.class.path">
+		<pathelement path="${classpath}" />
+		<fileset dir="${dadadJ.common.libraries}">
+			<include name="**/*.jar" />
+		</fileset>
+	</path>
+
+
+	<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  -->
+	<!-- XXX TARGET: compile	COMPILE SYSTEM      XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX  -->
+	<target name="compile" description="compile dadadJ" depends="compile.dadadJ">
+	</target>
+
+	<target name="compile.dadadJ" depends="init,clean.dadadJ" description="compile dadadJ">
+		<mkdir dir="${dadadJ.bin}" />
+		<javac srcdir="${dadadJ.src}" destdir="${dadadJ.bin}" debug="${javac.debug}">
+			<classpath refid="dadadJ.class.path" />
+		</javac>
+	</target>
+
+
+	<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  -->
+	<!-- XXX TARGET: dist	BUILD DISTRIBUTION     XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX  -->
+	<target name="dist" depends="clean.all,init,compile" description="generate the distribution">
+
+		<!-- JAR it with a MANIFEST -->
+		<jar jarfile="${dist}/lib/dadadJ.jar" manifest="${content}/MANIFEST.MF" basedir="${dadadJ.bin}" />
+
+		<!-- drag the rest of the content -->
+		<copy todir="${dist}/lib" overwrite="true">
+			<fileset dir="${dadadJ.common.libraries}" />
+		</copy>
+		
+		<copy todir="${dist}">
+			<fileset file="${content}/run.sh" defaultexcludes="no" />
+			<fileset file="${content}/start.sh" defaultexcludes="no" />
+			<fileset file="${content}/startdebug.sh" defaultexcludes="no" />
+			<fileset file="${content}/stop.sh" defaultexcludes="no" />
+			<fileset file="${content}/run.sh" defaultexcludes="no" />
+			<fileset file="${content}/setup.sh" defaultexcludes="no" />
+            <fileset file="${content}/README.md" defaultexcludes="no" />
+		</copy>
+		
+		<copy todir="${dist}">
+			<fileset file="${content}/server.prop" defaultexcludes="no" />
+		</copy>
+
+		<copy todir="${dist}/config">
+			<fileset dir="${content}/config" defaultexcludes="no" />
+		</copy>
+		
+		<copy todir="${dist}/content">
+			<fileset dir="${content}/content" defaultexcludes="no" />
+		</copy>
+		
+		<copy todir="${dist}/script">
+			<fileset dir="${content}/script" defaultexcludes="no" />
+		</copy>
+
+		<mkdir dir="${dist}/data" />
+
+		<mkdir dir="${dist}/log" />
+		
+		<mkdir dir="${dist}/temp" />
+		
+	  	<chmod dir="${dist}" perm="755" 
+	  	       includes="**/*.sh"/>
+		
+	</target>
+
+	<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  -->
+	<!-- XXX TARGET: test	TEST DISTRIBUTION     XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX  -->
+	<target name="test" depends="dist" description="generate the test setup">
+
+		<copy todir="${test}">
+			<fileset dir="${dist}" defaultexcludes="no" />
+		</copy>
+		
+		<mkdir dir="${test}/test" />
+		
+		<copy todir="${test}/test" overwrite="true">
+			<fileset dir="${content}/test" defaultexcludes="no" />
+		</copy>
+		
+	  	<chmod dir="${test}" perm="755" 
+	  	       includes="**/*.sh"/>
+		
+	</target>
+	
+	<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  -->
+	<!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx  -->
+	<!-- XXX TARGET: clean		CLEAN DEV ENVIRONMENT     XXXXXXXXXXXXXXXXXXXXXXXXXXX  -->
+	<target name="clean.all" depends="clean.dadadJ" description="clean before">
+
+		<delete includeEmptyDirs="true" failonerror="false">
+			<fileset dir="${dist}" />
+		</delete>
+	</target>
+
+	<target name="clean.dadadJ" description="clean dadadJ">
+		<delete includeEmptyDirs="true" failonerror="false">
+			<fileset dir="${dadadJ.bin}" />
+		</delete>
+	</target>
+	
+    <delete includeEmptyDirs="true" failonerror="false">
+        <fileset dir="${dist}"/>
+        <fileset dir="${test}"/>
+    </delete>
+
+</project>
+
+
+
+

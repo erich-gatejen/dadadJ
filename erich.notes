@@ -1,0 +1,16 @@
+Base system port of dlang dadad.
+
+
+
+[				- interspace (always)
+{ sdfdfsdf } 	- block
+ , 				- interspace (only if successor succeeds)
+{ sdfdfsdf } 	- block
+]  				- interspace 
+
+interspace (always):
+block read -> save (write)
+
+block:
+block read -> block acceptor -> 
+

@@ -1,0 +1,7 @@
+$[[run.prop]]
+
+report.sources=
+report.classes.1=dadad.process.data.report.impl.Report_Summary
+report.classes.2=dadad.process.data.report.impl.Report_Frequency
+report.classes.3=dadad.process.data.report.impl.Report_DocFrequency
+report.classes.4=dadad.process.data.report.impl.Report_SizeFrequency

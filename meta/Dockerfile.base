@@ -1,0 +1,10 @@
+FROM drydock/u14jav:tip
+
+RUN mkdir /dadadJ
+
+COPY startup_base.sh /startup.sh
+COPY dadadJ.tgz /dadadJ
+
+CMD /startup.sh
+
+

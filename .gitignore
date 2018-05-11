@@ -1,0 +1,10 @@
+bin/*
+dist/*
+test/*
+**/.DS_Store
+.DS_Store
+.ant-targets-build.xml
+*.tgz
+.idea/*
+dadadJ.iml
+

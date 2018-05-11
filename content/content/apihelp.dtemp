@@ -1,0 +1,50 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>API $((api.name))</title>
+<style type="text/css">
+.dadadhelp {
+	font: small;
+}
+.dadadhname {
+	font-weight: bolder;
+}
+.dadadname {
+}
+table.dadadapitable   {
+	border: 1px solid black;
+	border-collapse: collapse;
+	width: 100%;
+}
+tr.dadadapitr {
+	text-align: left;
+	vertical-align: central;
+}
+table.dadadresult {
+	border: 1px solid red;
+	border-collapse: collapse;
+	width: 100%;
+}
+div.dadadheader {
+	font-size: smaller;
+	color: red;
+}
+td.dadadnav {
+	font-size: medium;
+	text-align: right;
+}
+</style>
+$[[SCRIPTCSS]]
+</head>
+<body>
+<table border="0" width="100%"><tr>
+  <td class="dadadnav"><a href="apilist.dtemp">&lt;&lt; API LIST</a></td></tr></table>
+<div class="dadadheader">API CALL RESULT</div>
+<table class="dadadresult">
+	<tr><td>$[[ADDREPORT]]</td><tr>
+</table>
+<br>
+$[[ADDHELP,api.name]]
+</body>
+</html>

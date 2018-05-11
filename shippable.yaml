@@ -1,0 +1,42 @@
+# Language setting
+language: java
+
+# Version number
+jdk:
+  - oraclejdk8
+
+build:
+#  pre_ci_boot:
+#    image_name: dry-dock/u14jav
+#    image_tag: prod
+#    pull: true
+#    options: '--privileged=true --net=bridge -e FOO=true -e BOO=false'
+
+  pre_ci:
+    - echo "Master"
+
+  ci:
+    - ant test
+    - export DADAD_HOME="$SHIPPABLE_BUILD_DIR/test"
+    - cd $SHIPPABLE_BUILD_DIR/test
+    - pwd
+    - cd test
+    - ./integration_test_suite.sh CI
+    - mkdir -p ../../shippable/testresults
+    - ./junitresult.sh CI > ../../shippable/testresults/result.xml
+    - cat ../../shippable/testresults/result.xml
+    
+  post_ci:
+    - ls -a
+    - pwd    
+  
+  # on_success:
+  
+  # on_failure:
+
+#  cache: true
+
+#  cache_dir_list: 
+#    - $SHIPPABLE_BUILD_DIR/node_modules
+    
+   

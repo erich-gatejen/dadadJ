@@ -1,0 +1,36 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html><head>
+  
+  <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type">
+  <title>API</title>
+$[[SCRIPTCSS]]
+<style>
+table.dadadresult {
+	border: 1px solid red;
+	border-collapse: collapse;
+	width: 100%;
+}
+</style>
+</head>
+<body>
+DADAD API helper
+<table class="dadadresult">
+	<tr><td>$[[ADDREPORT]]</td><tr>
+</table>
+
+<form enctype="application/x-www-form-urlencoded" method="post" action="/api.dtemp" name="apiscript" id="apiscript"><br>
+	$[[ADDPROP,data.type,DTMP]]
+  <button class="submit.button" name="apiscript.run" onclick="$[[ADDACTION,run,apiscript,/API/SCRIPTPROP/SNIP,___success.report,]]">RUN
+API SCRIPT</button><br>
+  <textarea cols="100" rows="30" name="script.text">$((script.text))</textarea><br>
+  <br>
+PATH to script file<br>
+  <input value="$((file.path))" size="100" name="file.path"><br>
+  <button class="submit.button" name="apiscript.load" id="apiscript.load" 
+  	    onclick="$[[ADDACTION,load,apiscript,/SYSTEM/LOAD/TEXT,script.text,api.dtemp]]">LOAD SCRIPT</button> 
+  <button class="submit.button" name="apiscript.save" id="apiscript.save" 
+        onclick="$[[ADDACTION,save,apiscript,/SYSTEM/SAVE/SNIP,___success.report,api.dtemp,text,script.text]]">SAVE SCRIPT</button>
+</form>
+
+<br>
+</body></html>

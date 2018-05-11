@@ -1,0 +1,18 @@
+
+# Start services
+service.class.1.name=RESTServer
+service.class.1.class=dadad.system.data.RESTWorkflow
+
+# Api registry
+server.api.SERVER=dadad.system.api.API_SERVER
+server.api.API=dadad.system.api.API_API
+server.api.SYSTEM=dadad.system.api.API_SYSTEM
+
+# Run name for kernel, services and dispatch
+run=WKS
+
+# REST port 
+# This is the default, but leave this in the configurtion for the scripts to use.
+system.rest.port=8585
+
+
